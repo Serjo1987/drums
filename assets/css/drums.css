@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-sizing: border-box
+}
+
+.app-drums {
+  display: block;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.content {
+  vertical-align: middle;
+  width: 100%;
+  display: inline-block;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0%;
+  margin: auto;
+  text-align: center;
+  padding-top: 155px;
+}
+.drums {
+  height: 270px;
+  width: 400px;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.crash {
+  position: absolute;
+  background: url('../img/crash.png') 0 0 no-repeat;
+  height: 360px;
+  width: 203px;
+  background-size: contain;
+  top: -181px;
+  left: -96px;
+}
+.hi-hat {
+  position: absolute;
+  background: url('../img/hi-hat.png') 0 0 no-repeat;
+  height: 257px;
+  width: 100%;
+  background-size: contain;
+  left: -87px;
+  top: -29px;
+}
+.bass {
+  position: absolute;
+  background: url('../img/bass.png') 0 0 no-repeat;
+  height: 200px;
+  width: 100%;
+  background-size: contain;
+
+}
+.tom {
+  position: absolute;
+  background: url('../img/tom.png') 0 0 no-repeat;
+  height: 108px;
+  width: 136px;
+  background-size: contain;
+  top: -72px;
+  left: 10px;
+}
+.snare-keeper {
+  position: absolute;
+  background: url('../img/snare-keeper.png') 0 0 no-repeat;
+  height: 215px;
+  width: 105px;
+  background-size: contain;
+  top: 67px;
+  left: 17px;
+}
+.snare {
+  position: absolute;
+  background: url('../img/snare.png') 0 0 no-repeat;
+  height: 63px;
+  width: 105px;
+  background-size: contain;
+  top: 39px;
+  left: 15px;
+}
+.ride {
+  position: absolute;
+  background: url('../img/ride.png') 0 0 no-repeat;
+  height: 300px;
+  width: 100%;
+  background-size: contain;
+  left: 151px;
+  top: -35px;
+}
+.floor-tom {
+  position: absolute;
+  background: url('../img/floor-tom.png') 0 0 no-repeat;
+  height: 150px;
+  width: 115px;
+  background-size: contain;
+  left: 152px;
+  top: 58px;
+}
+
+/* Hovers */
+
+#snare-hover {
+  display: none;
+  position: absolute;
+  background: url('../img/snare.png') 0 0 no-repeat;
+  height: 70px;
+  width: 115px;
+  background-size: contain;
+  opacity: 0.6;
+  top: -3px;
+  left: -4px;
+}
+
+#bass-hover {
+  display: none;
+  position: absolute;
+  background: url('../img/bass.png') 0 0 no-repeat;
+  height: 210px;
+  width: 100%;
+  background-size: contain;
+  opacity: 0.6;
+  left: -7px;
+  top: -5px;
+}
+
+#hi-hat-hover {
+  display: none;
+  position: absolute;
+  background: url('../img/hi-hat.png') 0 0 no-repeat;
+  height: 270px;
+  width: 100%;
+  background-size: contain;
+  left: -4px;
+  top: -7px;
+  opacity: 0.4;
+}
+
+#crash-hover {
+  display: none;
+  position: absolute;
+  background: url('../img/crash.png') 0 0 no-repeat;
+  height: 380px;
+  width: 220px;
+  background-size: cover;
+  opacity: 0.25;
+  left: -11px;
+  top: -11px;
+}
+
+#tom-hover {
+  display: none;
+  position: absolute;
+  background: url('../img/tom.png') 0 0 no-repeat;
+  height: 114px;
+  width: 140px;
+  background-size: contain;
+  top: -2px;
+  left: -3px;
+  opacity: 0.4;
+}
+
+#ride-hover {
+  display: none;
+  position: absolute;
+  background: url('../img/ride.png') 0 0 no-repeat;
+  height: 310px;
+  width: 100%;
+  background-size: contain;
+  left: -3px;
+  top: -5px;
+  opacity: 0.4;
+}
+
+#floor-tom-hover {
+  display: none;
+  position: absolute;
+  background: url('../img/floor-tom.png') 0 0 no-repeat;
+  height: 160px;
+  width: 118px;
+  background-size: contain;
+  left: -3px;
+  top: -2px;
+  opacity: 0.4;
+}
